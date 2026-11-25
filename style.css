@@ -1,0 +1,53 @@
+.skill-label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress {
+  height: 5px;
+  background: #dcdfd3;
+}
+
+.progress span {
+  display: block;
+  width: var(--level);
+  height: 100%;
+  background: #dd6fb1;
+}
+
+body.dark-mode {
+  --ink: #edf2e8;
+  --paper: #151a16;
+  --line: #343c34;
+}
+
+body.dark-mode .site-header {
+  background: rgba(21, 26, 22, 0.93);
+}
+
+body.dark-mode .skills-band,
+body.dark-mode .projects-band {
+  background: #202720;
+}
+
+body.dark-mode .intro,
+body.dark-mode .about-copy,
+body.dark-mode .timeline-item p,
+body.dark-mode .project-info p:last-child,
+body.dark-mode .muted {
+  color: #bdc5b8;
+}
+
+body.dark-mode .progress {
+  background: #394239;
+}
+
+body.dark-mode .role-tag {
+  background: #343d32;
+  color: #d5dfc8;
+}
+
+body.dark-mode .button-dark {
+  background: #d8f36a;
+  color: #202820;
+}
