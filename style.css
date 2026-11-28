@@ -122,3 +122,12 @@ body.dark-mode .button-dark {
     grid-template-columns: 1fr;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+section[id] {
+  scroll-margin-top: 80px;
+}
