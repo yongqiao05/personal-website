@@ -51,3 +51,27 @@ body.dark-mode .button-dark {
   background: #d8f36a;
   color: #202820;
 }
+
+.skill-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.skill-tag {
+  display: inline-block;
+  padding: 9px 16px;
+  border-radius: 999px;
+  background: #f4e3ed;
+  color: #563348;
+  font-size: 14px;
+  font-weight: 600;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.skill-tag:hover {
+  transform: translateY(-3px);
+  background: #dd6fb1;
+  color: #fff;
+}
